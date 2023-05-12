@@ -13,7 +13,15 @@ kubectl create namespace devops-tools
 
 kubectl apply -f jenkins-app.yaml
 
-3. Create Ingress for access from outside:
+3. Set TLS secret for SSL certificate
+
+cat tls.crt | base64
+cat tls.key | base64
+
+kubectl apply -f jenkins-tls.yaml
+
+
+4. Create Ingress for access from outside:
 
 kubectl apply -f jenkins-ingress.yaml 
 
