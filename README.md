@@ -27,6 +27,11 @@ kubectl apply -f jenkins-ingress.yaml
 
 
 
+References:
+
+1) https://medium.com/@myte/kubernetes-nfs-and-dynamic-nfs-provisioning-97e2afb8b4a9
+2) https://www.jenkins.io/doc/book/installing/kubernetes/
+3) https://medium.com/@vishal.sharma./running-jenkins-in-kubernetes-cluster-with-persistent-volume-da6584edc126
 
 
 
