@@ -3,6 +3,7 @@ NFS file share /mnt/nfs_share/jenkins has to be created before all steps.
 
 0. Allow access to NFS share:
 
+sudo mkdir /mnt/nfs_share/jenkins
 sudo chmod -R  777 /mnt/nfs_share/jenkins
 
 1. Create namespace: 
